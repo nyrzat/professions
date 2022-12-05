@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 992px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.block{
+    width: 166px;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    text-decoration: underline #00a29a81;
+    text-underline-offset: 15px;
+    font-size: 18px;
+    padding-bottom: 21px;
+
+}
+.text{
+    width: 500px;
+    font-size: 12px;
+}
+.img{
+    max-width: 354px;
+   
+    position: relative;
+}
+.img::before{
+    content: "";
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    top: -30px;
+    left: -33px;
+    background: #00a29a81;
+}
+.img::after{
+    content: "";
+    width: 280px;
+    height: 177px;
+    display: inline-block;
+    position: absolute;
+    bottom: -28px;
+    right:  -28px;
+    border: 3px solid #00A29B;
+    z-index: -1;
+}
+.img-2{
+    max-width: 350px;
+    position: relative;
+}
+.img-2::after{
+    content: "";
+    width: 277px;
+    height: 177px;
+    position: absolute;
+    bottom: -30px;
+    left:-33px;
+    border: 3px solid #cfec2b;
+    z-index: -2;
+}
+.img-2::before{
+    content: "";
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -28px;
+    right:  -28px;
+    background: #fcf82681;
+}
+.title-1{
+    text-decoration: underline #d9ee1ffd;
+    text-underline-offset: 15px;
+    font-size: 18px;
+    padding-bottom: 21px;
+}
